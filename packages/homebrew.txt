@@ -1,0 +1,10 @@
+fish
+httpie
+pyenv
+git
+emacs
+git-lfs
+node
+youtube-dl
+mas
+gh
