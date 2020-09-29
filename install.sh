@@ -2,7 +2,7 @@
 
 set -e
 
-[ -z $(xcode-select --print-path) ] && xcode-select --install
+[ -d $(xcode-select --print-path) ] && xcode-select --install
 [ -z $(which brew) ] && curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh | /bin/bash
 [ -n $(brew tap | grep "homebrew/cask") ] && brew tap homebrew/cask
 

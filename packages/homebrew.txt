@@ -3,6 +3,7 @@ httpie
 pyenv
 git
 emacs
+vim
 git-lfs
 node
 youtube-dl
