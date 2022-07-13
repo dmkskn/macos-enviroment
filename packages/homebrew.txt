@@ -2,7 +2,6 @@ fish
 httpie
 pyenv
 git
-emacs
 vim
 git-lfs
 node
